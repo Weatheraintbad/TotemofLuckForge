@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "totemofluck"
+version = "1.0.0"
+displayName = "Totem of Luck"
+authors = "Weatheraintbad"
+description = "Adds a new totem for Minecraft"
+displayURL = "https://github.com/Weatheraintbad/TotemofLuckForge"
+logoFile = "logo.png"
+
+[[dependencies.totemofluck]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.totemofluck]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.21)"
+ordering = "NONE"
+side = "BOTH"

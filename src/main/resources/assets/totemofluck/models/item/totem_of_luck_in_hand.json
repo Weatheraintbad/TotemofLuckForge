@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/generated",
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [ 0, 90, 0 ],
+      "translation": [ 0, 2, 2 ],
+      "scale": [ 0.7, 0.7, 0.7 ]
+    },
+    "firstperson_righthand": {
+      "rotation": [ 0, 135, 0 ],
+      "translation": [ 0, 2, 0 ],
+      "scale": [ 0.7, 0.7, 0.7 ]
+    }
+  },
+  "textures": {
+    "layer0": "totemofluck:item/totem_of_luck"
+  }
+}
